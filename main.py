@@ -11,7 +11,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
 
-	#index_base_file = codecs.open("templates/index.html", "r", "utf-8")
 
 
 
@@ -36,21 +35,14 @@ def index():
   <div id="title_box">
     <p id="title">
 
-                                        _____      _                
-     /\\                               |  __ \\    | |               
-    /  \\   _ __   ___  _ __    ______  | |__) |_ _| | __ _  ___ ___ 
-   / /\\ \\ | '_ \\ / _ \\| '_ \\  |______| |  ___/ _` | |/ _` |/ __/ _ \
-  / ____ \\| | | | (_) | | | |          | |  | (_| | | (_| | (_|  __/
- /_/    \\_\\_| |_|\\___/|_| |_|          |_|   \\__,_|_|\\__,_|\\___\\___|
-                                                                    
+flask forum
 
     </p>
   </div>
 
 <div id="presentation_box">
   <p id="presentation">
-    Anon-Palace is an anonymous forum where you can share your knowledge without caring   <br>
-    about your identity and safety.
+flask forum presentation
   </p>
   
 </div>
@@ -141,29 +133,20 @@ def clearChat():
 
   <div id="title_box">
     <p id="title">
-
-                                        _____      _                
-     /\\                               |  __ \\    | |               
-    /  \\   _ __   ___  _ __    ______  | |__) |_ _| | __ _  ___ ___ 
-   / /\\ \\ | '_ \\ / _ \\| '_ \\  |______| |  ___/ _` | |/ _` |/ __/ _ \
-  / ____ \\| | | | (_) | | | |          | |  | (_| | | (_| | (_|  __/
- /_/    \\_\\_| |_|\\___/|_| |_|          |_|   \\__,_|_|\\__,_|\\___\\___|
-                                                                    
-
+flask forum
     </p>
   </div>
 
 <div id="presentation_box">
   <p id="presentation">
-    Anon-Palace is an anonymous forum where you can share your knowledge without caring   <br>
-    about your identity and safety.
+flask forum presentation
   </p>
   
 </div>
 
 <div id="shoutbox">
   <p id="chat">
-    @AppolyonBot : Chat Cleared !
+    @AdminBot : Chat Cleared !
   </p>
 </div>
 
