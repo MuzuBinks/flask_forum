@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Anon Palace</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style/register.css')}}">
+</head>
+
+<body>
+
+
+  <div id="title_box">
+    <p id="title">
+
+                                        _____      _                
+     /\                                |  __ \    | |               
+    /  \   _ __   ___  _ __    ______  | |__) |_ _| | __ _  ___ ___ 
+   / /\ \ | '_ \ / _ \| '_ \  |______| |  ___/ _` | |/ _` |/ __/ _ \
+  / ____ \| | | | (_) | | | |          | |  | (_| | | (_| | (_|  __/
+ /_/    \_\_| |_|\___/|_| |_|          |_|   \__,_|_|\__,_|\___\___|
+                                                                    
+
+    </p>
+  </div>
+
+<div id="presentation_box">
+  <p id="presentation">
+    Anon-Palace is an anonymous forum where you can share your knowledge without caring<br>
+    about your identity and safety.
+  </p>
+  
+</div>
+
+<div id="register_box">
+  <p>
+  <form autocomplete="on" action="api/register" method="post" id="send_form">
+  <label id="username_label">Username : </label>
+  <input type="text" name="username" id="username" autocomplete=“false” required><br>
+  <label id="password_label">Password : </label>
+  <input type="password" name="password" id="password" autocomplete="false" required><br>
+  <input id="submit_button" type="submit" value="Register"/>
+</div>
+  </p>
+</div>
+
+<div>
+
+</div>
+
+
+</body>
+
+</html>
+		

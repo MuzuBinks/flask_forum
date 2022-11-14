@@ -1,0 +1,78 @@
+body {
+	background-color: #969696;
+}
+
+#title_box {
+border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+border: 5px solid #262626;
+background-color: #696969;
+/*font-family: "Gill Sans", sans-serif;*/
+font-family: monospace;
+text-align: center;
+height: 100px;
+}
+
+#title {
+	color: white;
+	margin-top : -50px;
+	font-size: 15px;
+  white-space: pre;
+}
+
+#presentation_box {
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px0 50px 50px 50px;
+  border: 5px solid #262626;
+  background-color: #696969;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  height: 70px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#presentation {
+	color: white;
+  margin-top: -7.5px;
+	font-size: 15px;
+  white-space: pre;
+}
+
+#shoutbox {
+margin-top:10px;
+border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+border: 5px solid #262626;
+background-color: #696969;
+font-family: "Gill Sans", sans-serif;
+text-align: center;
+height: 300px;
+}
+#msg_field {
+  margin-top: 5px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border: 5px solid #262626;
+  background-color: #696969;
+  font-family: "Gill Sans", sans-serif;
+  text-align: left;
+  padding-left: 10px;
+  height: 40px;
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  
+}
+
+#chat {
+  text-align: left;
+  color: white;
+  padding-left: 10px;
+}

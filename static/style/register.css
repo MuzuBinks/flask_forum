@@ -1,0 +1,133 @@
+body {
+	background-color: #969696;
+}
+
+#title_box {
+border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+border: 5px solid #262626;
+background-color: #696969;
+/*font-family: "Gill Sans", sans-serif;*/
+font-family: monospace;
+text-align: center;
+height: 100px;
+}
+
+#title {
+	color: white;
+	margin-top : -50px;
+	font-size: 15px;
+  white-space: pre;
+}
+
+#presentation_box {
+  margin-top: 10px;
+  border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px0 50px 50px 50px;
+  border: 5px solid #262626;
+  background-color: #696969;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  height: 70px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#presentation {
+	color: white;
+  margin-top: -7.5px;
+	font-size: 15px;
+  white-space: pre;
+}
+
+#register_box {
+margin-top:10px;
+border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+border: 5px solid #262626;
+background-color: #696969;
+font-family: "Gill Sans", sans-serif;
+text-align: center;
+margin-left: 400px;
+margin-right: 400px;
+height: 300px;
+}
+#msg_field {
+  margin-top: 5px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border: 5px solid #262626;
+  background-color: #696969;
+  font-family: "Gill Sans", sans-serif;
+  text-align: left;
+  padding-left: 10px;
+  height: 40px;
+  width: 70%;
+  color: white;
+  font-size: 20px;
+  
+}
+
+#username_label {
+
+  color: white;
+  margin-top: 10px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#username {
+  margin-top: 5px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border: 2px solid #262626;
+  color: white;
+  padding-left: 5px;
+  background-color: #464646;
+  margin-top: 10px;
+  height: 25px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#password {
+  margin-top: 5px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  border: 2px solid #262626;
+  color: white;
+  padding-left: 5px;
+  background-color: #464646;
+  margin-top: 10px;
+  height: 25px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#password_label {
+  color: white;
+  background-color: #696969;
+  margin-top: 10px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+
+#submit_button {
+  margin-top: 10px;
+  font-family: "Gill Sans", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+
+#chat {
+  text-align: left;
+  color: white;
+  padding-left: 10px;
+}
